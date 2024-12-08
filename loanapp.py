@@ -62,6 +62,6 @@ if st.button("Predict", type='primary', icon="😃"):
 
     #st.success(f"Based on your input, the model predicts that your loan application will {'be approved' if prediction==1 else'rejected'}.")
     if prediction<=0:
-        st.markdown(f"<h3 style='color:#a3170a; font-weight:bold;'> Loan applicated REJECTED; Consider refining your application or contacting the loan lender for more information.", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color:#a3170a; font-weight:bold;'> Loan application REJECTED; Consider refining your application or contacting the loan lender for more information.", unsafe_allow_html=True)
     else:
-        st.markdown(f"<h3 style='color:#046e45; font-weight:bold;'> Loan applicated APPROVED; Congratulations!!", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color:#046e45; font-weight:bold;'> Loan application APPROVED; Congratulations!!", unsafe_allow_html=True)
